@@ -1,0 +1,434 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Handyman services website">
+    <title>Handyman</title>
+    <link href="css/fontawesome/css/all.css" rel="stylesheet" />
+    <link rel="stylesheet" href="css/styles.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap" rel="stylesheet">
+</head>
+
+<body>
+
+    <div class="container">
+        <!-- Demo Fixed buttons -->
+        <div class="demo-buttons">
+            <a class="demo-btn-content" href="#">
+                <div class="btn-demo-site">
+                    <div><i class="fa-brands fa-kickstarter"></i></div>
+                    <div><span>Prebuilts</span></div>
+                </div>
+            </a>
+            <a class="demo-btn-content" href="#">
+                <div class="btn-buy-site">
+                    <div><i class="fa-solid fa-cart-shopping"></i></div>
+                    <div><span>Buy Now</span></div>
+                </div>
+            </a>
+        </div>
+        <!-- Social Media Bar -->
+        <div class="top-bar">
+            <div class="top-bar-inner">
+                <div class="social-media">
+                    <a href="#"><i class="fa-brands fa-facebook-f"></i></a>
+                    <a href="#"><i class="fa-brands fa-x-twitter"></i></a>
+                    <a href="#"><i class="fa-brands fa-instagram"></i></a>
+                    <a href="#"><i class="fa-brands fa-youtube"></i></a>
+                </div>
+                <div class="top-links">
+                    <a href="#">FAQs</a>
+                    <a href="#">Safety Policy</a>
+                    <a href="#">Privacy Policy</a>
+                    <a href="#">Contact Us</a>
+                </div>
+                <input type="checkbox" id="topbar-menu-toggle" class="menu-checkbox">
+                <label for="topbar-menu-toggle" class="menu-icon">
+                    <div class="background-fa-book">
+                        <i class="fa-solid fa-book-open"></i>
+                    </div>
+                    <i class="fa-solid fa-xmark menu-icon-xmark"></i>
+                </label>
+
+                <div class="top-links-mobile">
+                    <a href="#">FAQs</a>
+                    <a href="#">Safety Policy</a>
+                    <a href="#">Privacy Policy</a>
+                    <a href="#">Contact Us</a>
+                </div>
+            </div>
+        </div>
+
+        <!-- Header with Logo and Navigation -->
+        <header>
+            <div class="header-inner">
+                <div class="logo">
+                    <img src="images/handyman-logo.png" alt="Handyman Logo">
+                </div>
+                <nav>
+                    <input type="checkbox" id="header-menu-toggle" class="menu-checkbox">
+                    <label for="header-menu-toggle" class="menu-btn">
+                        <span>Go to...</span>
+                        <i class="fa-solid fa-bars menu-icon"></i>
+                        <i class="fa-solid fa-xmark menu-icon"></i>
+                    </label>
+
+                    <ul class="nav-links">
+                        <li><a class="active" href="#">Home</a></li>
+                        <li class="dropdown">
+                            <a href="#">Services <i class="fa-solid fa-chevron-down"></i></a>
+                            <ul class="dropdown-menu">
+                                <li><a href="#">Maintenance</a></li>
+                                <li><a href="#">Plumbing</a></li>
+                                <li><a href="#">Decorating</a></li>
+                                <li><a href="#">Carpentry</a></li>
+                            </ul>
+                        </li>
+                        <li><a href="#">Testimonials</a></li>
+                        <li><a href="#">About Us</a></li>
+                        <li><a href="#">News</a></li>
+                    </ul>
+                </nav>
+            </div>
+        </header>
+
+        <!-- Hero Section -->
+        <section class="hero">
+            <div class="hero-text">
+                <div class="hero-content">
+                    <div class="service-tagline">
+                        <span>TRUSTED HANDYMAN SERVICES</span>
+                    </div>
+                    <div class="service-title">
+                        <h2>Trusted & Reliable Handyman Services</h2>
+                    </div>
+                    <div class="service-description">
+                        <p>Pellentesque in ipsum id orci porta dapibus. Donec rutrum congue leo eget malesuada praesent
+                            sapien massa.</p>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Services Section -->
+        <div class="service-background">
+            <section class="services">
+                <div class="service-content">
+                    <div class="service-box">
+                        <img src="images/maintenance.jpg" alt="Maintenance">
+                        <h3>Maintenance</h3>
+                        <div class="serivce-box-description">
+                            <p>Nulla quis lorem ut libero malesuada feugiat mauris blandit aliquet elit.</p>
+                        </div>
+                        <a href="#" class="btn">Read More</a>
+                    </div>
+                    <div class="service-box">
+                        <img src="images/plumbing.jpg" alt="Plumbing">
+                        <h3>Plumbing</h3>
+                        <div class="serivce-box-description">
+                            <p>Donec rutrum congue leo eget malesuada praesent sed porttitor lectus leget tortor.</p>
+                        </div>
+                        <a style="position: relative; top: -30px;" href="#" class="btn">Read More</a>
+                    </div>
+                    <div class="service-box">
+                        <img src="images/decorating.jpg" alt="Decorating">
+                        <h3>Decorating</h3>
+                        <div class="serivce-box-description">
+                            <p>Nulla porttitor accumsan tincidunt vivamus magna quis lorem ut libero.</p>
+                        </div>
+                        <a href="#" class="btn">Read More</a>
+                    </div>
+                </div>
+            </section>
+        </div>
+
+        <!-- Our service provider -->
+        <div class="section-provider">
+
+            <!-- Section provider 1 -->
+            <div class="service-provider-left">
+                <div class="text-provider-content">
+                    <h4>Highly Experienced Handymen</h4>
+                    <h2>Ready & Waiting To Assist</h2>
+                    <ul class="provider-checklist">
+                        <li>Pellentesque in ipsum id orci porta dapibus.</li>
+                        <li>Donec rutrum congue leo eget malesuada.</li>
+                        <li>Praesent sapien massa, convallis a pellentesque.</li>
+                        <li>Egestas non nisi donec sollicitudin molestie.</li>
+                    </ul>
+                </div>
+                <div class="image-provider-content">
+                    <img src="images/info-01.jpg" alt="Handyman with tools">
+                </div>
+            </div>
+
+            <!-- Section provider 2 -->
+            <div class="service-provider-right">
+                <div class="image-provider-content">
+                    <img src="images/info-02.jpg" alt="Woodworking">
+                </div>
+                <div class="text-provider-content">
+                    <h4>Highly Experienced Handymen</h4>
+                    <h2>Best Services In Town</h2>
+                    <p>Nulla porttitor accumsan tincidunt. Praesent sapien massa, convallis a pellentesque nec, egestas
+                        non nisi. Donec sollicitudin molestie.</p>
+                    <a href="#" class="provider-btn">Learn more about us</a>
+                </div>
+            </div>
+        </div>
+
+        <!-- Features section -->
+        <section class="features-section">
+            <div class="features-header">
+                <h2>Mauris Blandit Aliquet Elit</h2>
+                <p>Nulla porttitor accumsan tincidunt. Praesent sapien massa, convallis a pellentesque nec, egestas non
+                    nisi. Donec sollicitudin molestie.</p>
+            </div>
+
+            <div class="features-grid">
+                <div class="feature-card-1">
+                    <div class="icon-box">
+                        <i class="fa-solid fa-brush fa-rotate-by fa-2xl" style="--fa-rotate-angle: 220deg;"></i>
+                    </div>
+                    <h3>Decorating</h3>
+                    <div class="description-icon-box">
+                        <p>Nulla quis lorem ut libero malesuada feugiat. Sed porttitor lectus nibh praesent sapien
+                            massa.</p>
+                    </div>
+                </div>
+
+                <div class="feature-card-2">
+                    <div class="icon-box">
+                        <i class="fa-regular fa-industry fa-2xl"></i>
+                    </div>
+                    <h3>Carpentry</h3>
+                    <div class="description-icon-box">
+                        <p>Nulla quis lorem ut libero malesuada feugiat. Sed porttitor lectus nibh praesent sapien
+                            massa.</p>
+                    </div>
+                </div>
+
+                <div class="feature-card-3">
+                    <div class="icon-box">
+                        <i class="fa-solid fa-hammer fa-rotate-by fa-2xl" style="--fa-rotate-angle: 1deg;"></i>
+                    </div>
+                    <h3>Maintenance</h3>
+                    <div class="description-icon-box">
+                        <p>Nulla quis lorem ut libero malesuada feugiat. Sed porttitor lectus nibh praesent sapien
+                            massa.</p>
+                    </div>
+                </div>
+
+                <div class="feature-card-4">
+                    <div class="icon-box">
+                        <i class="fa-solid fa-wrench fa-2xl"></i>
+                    </div>
+                    <h3>Plumbing</h3>
+                    <div class="description-icon-box">
+                        <p>Nulla quis lorem ut libero malesuada feugiat. Sed porttitor lectus nibh praesent sapien
+                            massa.</p>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Brilliant dwelling -->
+        <div class="main-container">
+            <div class="brilliant-dwelling">
+                <div class="service-scribe">
+                    <h4>Highly Experienced Handymen</h4>
+                    <h2>We’re here to help</h2>
+                    <p>Nulla porttitor accumsan tincidunt. Praesent sapien massa, convallis a pellentesque nec, egestas
+                        non nisi. Donec sollicitudin molestie.</p>
+                    <div class="call-to-action">
+                        <button class="action-button"><i class="fa-solid fa-helmet-safety"></i>We’re fully protected
+                            with the correct equipment</button>
+                        <button class="action-button"><i class="fa-solid fa-medal fa-flip-vertical"></i>We have all of
+                            the regulatory safety certificates</button>
+                    </div>
+                </div>
+                <div class="visual-hero">
+                    <img src="images/info-scribe.jpg" alt="Handyman">
+                </div>
+            </div>
+
+            <!-- Articles area -->
+            <div class="articles-area">
+                <div class="articles-area-name">
+                    <div class="articles-name-description">
+                        <p>Articles from the workshop</p>
+                        <h3>Latest Handyman News</h3>
+                    </div>
+                    <div class="articles-name-btn">
+                        <button class="load-more">Read more news</button>
+                    </div>
+                </div>
+                <div class="articles-list">
+                    <div class="article-item">
+                        <div class="article-image">
+                            <img src="images/articles/blog-01.jpg" alt="Staining Your Decking">
+                        </div>
+                        <div class="article-text">
+                            <h4>Staining Your Decking</h4>
+                            <span>282 words | 16 min read</span>
+                            <p>Vestibulum ante ipsum primis in faucibus orci luctus et ultrices posuere.</p>
+                            <button class="article-btn">Read more</button>
+                        </div>
+                    </div>
+                    <div class="article-item">
+                        <div class="article-image">
+                            <img src="images/articles/blog-02.jpg" alt="The Best Floating Shelves">
+                        </div>
+                        <div class="article-text">
+                            <h4>The Best Floating Shelves</h4>
+                            <span>282 words | 16 min read</span>
+                            <p>Curabitur non nulla sit amet nisl tempus convallis quis ac lectus mauris.</p>
+                            <button class="article-btn">Read more</button>
+                        </div>
+                    </div>
+                    <div class="article-item">
+                        <div class="article-image">
+                            <img src="images/articles/blog-03.jpg" alt="Plumbing Certification">
+                        </div>
+                        <div class="article-text">
+                            <h4>Plumbing Certification</h4>
+                            <span>282 words | 16 min read</span>
+                            <p>Vestibulum ac diam sit amet quam vehicula elementum sed sit amet dui.</p>
+                            <button class="article-btn">Read more</button>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <!-- Contact Page -->
+        <section class="contact-section">
+            <div class="contact-container">
+
+                <div class="contact-form-wrapper">
+                    <div class="contact-form-title">
+                        <p>Get in touch today</p>
+                        <h1 class="form-title">Receive Your Free Quote</h1>
+                    </div>
+                    <form action="#" method="post" class="contact-form">
+                        <div class="form-row">
+                            <div class="form-group">
+                                <label for="first-name" class="form-label">First Name:</label>
+                                <input type="text" id="first-name" name="first-name" class="form-input">
+                            </div>
+                            <div class="form-group">
+                                <label for="surname" class="form-label">Surname:</label>
+                                <input type="text" id="surname" name="surname" class="form-input">
+                            </div>
+                        </div>
+                        <div class="form-row">
+                            <div class="form-group">
+                                <label for="email" class="form-label">Your Email:</label>
+                                <input type="email" id="email" name="email" class="form-input">
+                            </div>
+                            <div class="form-group">
+                                <label for="telephone" class="form-label">Telephone:</label>
+                                <input type="tel" id="telephone" name="telephone" class="form-input">
+                            </div>
+                        </div>
+                        <div class="form-group">
+                            <label for="message" class="form-label">Your Message:</label>
+                            <textarea id="message" name="message" class="form-textarea"></textarea>
+                        </div>
+                        <button type="submit" class="submit-btn">Submit Your Quote Request</button>
+                    </form>
+                </div>
+
+                <div class="testimonial-wrapper">
+                    <div class="testimonial-box">
+                        <img src="images/shona-jones.jpg" alt="Shona Jones" class="testimonial-image">
+                        <h3 class="testimonial-title">“Outstanding Work”</h3>
+                        <span class="testimonial-rating">⭐⭐⭐⭐⭐ 5 / 5</span>
+                        <p class="testimonial-message">
+                            Vestibulum luctus blandit ante vel fermentum. Aenean vel malesuada ante.
+                            Etiam pharetra metus a facilisis aliquet. Proin et interdum nisi,
+                            vel rhoncus dolor. Etiam erat ex, ultricies et justo vitae,
+                            luctus malesuada felis. Orci varius natoque penatibus et magnis
+                            dis parturient montes, nascetur ridiculus mus.
+                        </p>
+                        <p class="testimonial-author">Shona Jones</p>
+                    </div>
+                </div>
+
+            </div>
+        </section>
+
+        <!-- Footer -->
+        <div class="footer-black">
+            <div class="footer-content-black">
+                <div class="footer-black-title">
+                    <h2>Highly Qualified, Time Served Professional Handyman</h2>
+                </div>
+                <div class="footer-contact">
+                    <span class="footer-phone"><i class="fa-solid fa-phone fa-flip-horizontal"></i>1-800-123-4567</span>
+                </div>
+            </div>
+        </div>
+
+        <div class="footer-orange">
+            <div class="footer-content-orange">
+                <div class="footer-orange-logo">
+                    <img src="images/handyman-logo.png" alt="Handyman Logo">
+                </div>
+                <div class="footer-orange-buttons">
+                    <button class="footer-btn chat-btn">Chat Directly With Us</button>
+                    <button class="footer-btn appointment-btn">Book An Appointment</button>
+                </div>
+            </div>
+        </div>
+
+        <footer class="handyman-footer">
+
+            <div class="footer-main">
+                <div class="footer-links">
+                    <div class="footer-column">
+                        <a href="#" class="footer-link">Services</a>
+                        <a href="#" class="footer-link">Testimonials</a>
+                        <a href="#" class="footer-link">About Us</a>
+                        <a href="#" class="footer-link">News</a>
+                    </div>
+                    <div class="footer-column">
+                        <a href="#" class="footer-link">Carpentry</a>
+                        <a href="#" class="footer-link">Maintenance</a>
+                        <a href="#" class="footer-link">Decorating</a>
+                        <a href="#" class="footer-link">Plumbing</a>
+                    </div>
+                    <div class="footer-column">
+                        <a href="#" class="footer-link">FAQs</a>
+                        <a href="#" class="footer-link">Safety Policy</a>
+                        <a href="#" class="footer-link">Privacy Policy</a>
+                        <a href="#" class="footer-link">Contact Us</a>
+                    </div>
+                    <div class="footer-column footer-column-none" style="text-align: end;">
+                        <a href="#" class="footer-link footer-icon-social">Like Us On Facebook<i
+                                class="fa-brands fa-square-facebook"></i></a>
+                        <a href="#" class="footer-link footer-icon-social">Follow Us On Twitter<i
+                                class="fa-brands fa-square-twitter"></i></a>
+                        <a href="#" class="footer-link footer-icon-social">Follow Us On Instagram<i
+                                class="fa-brands fa-instagram"></i></a>
+                        <a href="#" class="footer-link footer-icon-social">Follow Us On LinkedIn<i
+                                class="fa-brands fa-linkedin"></i></a>
+                    </div>
+                </div>
+            </div>
+
+            <div class="footer-bottom">
+                <p class="copyright-text">© 2024 • All Rights Reserved • Developed by Reality</p>
+            </div>
+        </footer>
+
+
+        <!-- End container -->
+    </div>
+</body>
+
+</html>
